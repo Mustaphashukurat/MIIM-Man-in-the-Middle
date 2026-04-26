@@ -1,0 +1,16 @@
+MITM Simulation Report
+
+Tool Used: Wireshark
+
+Environment:
+Kali Linux and Metasploitable on same virtual network.
+
+Traffic Captured:
+FTP login traffic between systems.
+
+Findings:
+Username and password were visible in plaintext.
+This shows how attackers in a MITM position can read unencrypted traffic.
+
+Conclusion:
+Protocols without encryption are insecure. Use HTTPS, SSH, SFTP, and VPNs instead.
